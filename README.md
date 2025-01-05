@@ -11,19 +11,20 @@ This project demonstrates a simple Node.js application that performs CRUD (Creat
 
 
 ## Structure
-MongoDB-node/
-├── controllers/
-│   └── Controller.js
-├── models/
-│   └── userModel.js
-├── routes/
-│   └── Routes.js
-├── .env
-├── server.js
-└── package.json
+MongoDB-node/  
+├── controllers/  
+│   └── Controller.js  
+├── models/  
+│   └── userModel.js  
+├── routes/  
+│   └── Routes.js  
+├── .env  
+├── server.js  
+└── package.json  
 
 
-server.js: Entry point of the application. Sets up the Express server and connects to MongoDB.
-routes/Routes.js: Defines the API endpoints for profile operations.
-controllers/Controller.js: Contains the logic for handling profile operations.
-models/userModel.js: Defines the Mongoose schema and model for user profiles.
+
+- server.js: Entry point of the application. Sets up the Express server and connects to MongoDB.
+- routes/Routes.js: Defines the API endpoints for profile operations.
+- controllers/Controller.js: Contains the logic for handling profile operations.
+- models/userModel.js: Defines the Mongoose schema and model for user profiles.
